@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodejs-server
-        image: 684694267050.dkr.ecr.us-east-1.amazonaws.com/node-server:22307d0222f15078606627b9d952ed2c2947a070 # Update this to use a specific tag
+        image: 684694267050.dkr.ecr.us-east-1.amazonaws.com/node-server:ae442effcd63884479e3146fabcfee3378267d85 # Update this to use a specific tag
         ports:
         - containerPort: 3001
         env:
